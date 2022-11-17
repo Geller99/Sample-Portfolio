@@ -1,0 +1,33 @@
+
+.Hero {
+    display: flex;
+    height: 100vh;
+    width: inherit;
+    /* border: 1px solid green; */
+    color: black;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.Hero-Buttons{
+    display: flex;
+    /* border: 1px solid blue; */
+    width: 25%;
+    justify-content: space-between;
+}
+
+
+
+.Hero-btn {
+    border-radius: 15px;
+    width: 150px;
+    height: 45px;
+}
+
+.Hero-btn:hover {
+    background-color: #b9b9b9;
+}
